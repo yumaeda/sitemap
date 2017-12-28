@@ -1,0 +1,31 @@
+{
+    "name": "seiya/sitemap",
+    "type": "library",
+    "description": "Creates sitemap.xml for Google.",
+    "keywords": [ "sitemap", "Google", "SEO", "url" ],
+    "homepage": "https://github.com/yumaeda/sitemap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yukitaka Maeda",
+            "email": "yumaeda@gmail.com",
+            "homepage": "https://github.com/yumaeda/sitemap",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "yumaeda@gmail.com"
+    },   
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Seiya\\": "src/"
+        }
+    }
+}
+
